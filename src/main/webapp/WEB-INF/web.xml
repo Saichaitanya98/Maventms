@@ -1,0 +1,92 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddLocationServlet</servlet-name>
+  	<display-name>AddLocationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.AddLocationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ScheduleCourseServlet</servlet-name>
+  	<display-name>ScheduleCourseServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.ScheduleCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PostFeedbackServlet</servlet-name>
+  	<display-name>PostFeedbackServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.PostFeedbackServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PostTrainingsServlet</servlet-name>
+  	<display-name>PostTrainingsServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.PostTrainingsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCourseServlet</servlet-name>
+  	<display-name>AddCourseServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.AddCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TestServlet</servlet-name>
+  	<display-name>TestServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmailServlet</servlet-name>
+  	<display-name>EmailServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa.training.controllers.EmailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddLocationServlet</servlet-name>
+  	<url-pattern>/AddLocationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ScheduleCourseServlet</servlet-name>
+  	<url-pattern>/ScheduleCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PostFeedbackServlet</servlet-name>
+  	<url-pattern>/PostFeedbackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PostTrainingsServlet</servlet-name>
+  	<url-pattern>/PostTrainingsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCourseServlet</servlet-name>
+  	<url-pattern>/AddCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TestServlet</servlet-name>
+  	<url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmailServlet</servlet-name>
+  	<url-pattern>/EmailServlet</url-pattern>
+  </servlet-mapping>
+<welcome-file-list>
+  	<welcome-file>
+		index.jsp
+	</welcome-file> 
+   </welcome-file-list>
+</web-app>
